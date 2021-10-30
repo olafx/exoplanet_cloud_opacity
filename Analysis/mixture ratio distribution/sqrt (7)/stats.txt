@@ -1,0 +1,2 @@
+% with at least 20% mixture ratio for MgSiO3: 0.0
+% with at least 20% mixture ratio for one molecule: 0.0
