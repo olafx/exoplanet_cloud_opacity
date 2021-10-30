@@ -1,0 +1,21 @@
+# param a for mixture ratio RNG
+0.01d0
+# param b for mixture ratio RNG
+0.99d0
+# function- either mie_rand or ros (currently only mie_rand works)
+mie_rand
+# Number of trainings set entries
+1048576
+# Minimal dust size
+0.001d0
+# Maximum dust size
+1.d0
+# Maximum standard deviation of dust size distribution
+0.01d0
+# Minimum observed wavelength (used as wavelength if mie_grid is used)
+0.3999d0
+# Maximum observed wavelength
+0.4001d0
+# Maximum values of mixing ratios of given elements. If a grid is calculated, only the first two non-zero values are used.
+# (1): TiO2 (2): Mg2SiO4 (3): SiO (4): SiO2 (5): Fe (6): Al2O3 (7): CaTiO3 (8): FeO (9): FeS (10): Fe2O3 (11): MgO (12): MgSiO3 (13): CaSiO3 (14): Fe2SiO4 (15): C (16): KCl
+   1         0            1        0         0       0          0           0        0         0           0         0            0            0             0       0
